@@ -4,10 +4,13 @@ function About() {
       <div className="container">
         <h2>About Me</h2>
         <p>
-          I am a Computer Science student who has completed 7th semester.
-          I build responsive web interfaces using HTML, CSS, JavaScript, and React.js.
-          I am eager to learn and work in a professional environment.
-        </p>
+I am a passionate Frontend Developer focused on building modern, responsive, and user-friendly web applications. 
+I specialize in creating clean UI designs and turning ideas into fully functional websites using technologies like 
+React, Next.js, JavaScript, and Tailwind CSS.
+
+I enjoy solving problems, improving user experiences, and developing fast, accessible interfaces that work smoothly 
+across all devices. My goal is to deliver high-quality web solutions that help businesses grow and stand out online.
+</p> 
       </div>
     </section>
   )

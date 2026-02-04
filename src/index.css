@@ -40,6 +40,9 @@ h1, h2 {
 .nav a {
   color: white;
   margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
   text-decoration: none;
 }
 
@@ -84,4 +87,24 @@ footer p {
   color: white;
   transition: 0.3s;
 
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
